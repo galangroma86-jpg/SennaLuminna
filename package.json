@@ -1,8 +1,11 @@
 {
   "name": "senna-lumina-order-system",
   "version": "1.0.0",
-  "description": "Backend order + pembayaran (Midtrans) untuk website Senna Lumina",
+  "description": "Backend order + pembayaran (Midtrans) + ongkir (RajaOngkir) untuk website Senna Lumina",
   "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js"
